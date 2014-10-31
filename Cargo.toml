@@ -1,0 +1,13 @@
+[package]
+
+name = "tetris"
+version = "0.0.1"
+authors = ["hwchen <walther.chen@gmail.com>"]
+
+[[bin]]
+
+name = "tetris"
+
+[dependencies.ncurses]
+
+git = "https://github.com/jeaye/ncurses-rs.git"
